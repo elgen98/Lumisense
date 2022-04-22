@@ -1,0 +1,269 @@
+body, html{
+    height: 100%;
+    margin: auto 0;
+}
+
+.consolas{
+    font-family: "Consolas";
+    font-size: 36px ;
+}
+
+.centuryBig{
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+
+.centurySmall {
+    font-size: 12px;
+    font-family: "Century Gothic";
+}
+
+#landing{
+    height: 100vh;
+}
+
+header, nav{
+    margin-bottom: 15px;
+    padding-top: 10px;
+    font-family: "Ebrima";
+    font-weight: bold;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#hamburger{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: none;
+}
+
+span{
+        display: block;
+        margin:3px;
+        margin-left: 8px;
+        height: 7.5px;
+        width:50px;
+        background: yellow;
+        border-radius: 13px;
+}
+
+#headerLogo{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+#hero-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-us{
+    text-align: center ;
+    border: 4px solid green;
+    border-radius:40px;
+    margin: 15px;
+    padding: 5px ;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.service{
+    height: 500px;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    border: solid green;
+    border-radius: 40px;
+    background-color: green;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 13px;
+    width: 250px;
+    margin-top: 12.5vh;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    height: 300px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+p{
+    margin: 0;
+}
+
+i{
+    color: yellow;
+}
+
+@media screen and (min-width: 1024px) and (min-width: 640px) {
+
+    .nav{
+        display: block;
+    }
+
+    span{
+        display: none;
+    }
+
+    #headerLogo{
+        margin: 0;
+    }
+
+    #hero-image{
+        margin-top: 40vh;
+    }
+
+    #about-us{
+        width: 85vw;
+        height: 50vh;
+    }
+
+    #aboutText{
+        margin-left: 15vw;
+        width: 50vw;
+    }
+
+    #services{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .service{
+        margin: 15px;
+        width: 46vw;
+        height: 50vh;
+    }
+
+    button{
+        font-family: "Century Gothic";
+        width: 250px;
+        margin-top: 30vh;
+    }
+
+    #team{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+
+    }
+    .person{
+        margin: 15px;
+        width: 200px;
+    }
+
+    img{
+        width: 200px;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px;
+        height: 7.5vh;
+    }
+}
+
+@media screen and (max-width: 1040px) and (min-width: 640px) {
+
+    .nav{
+        display: block;
+    }
+
+    span{
+        display: none;
+    }
+
+    #headerLogo{
+        margin: 0;
+    }
+
+    #about-us{
+        width: 85vw;
+        height: 50vh;
+    }
+
+    #aboutText{
+        margin-left: 15vw;
+        width: 50vw;
+    }
+
+    #services{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .service{
+        margin: 15px;
+        width: 43vw;
+        height: 35vh; 
+    }
+
+    button{
+        font-family: "Century Gothic";
+        width: 250px;
+        margin-top: 10vh;
+    }
+
+    #team{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+
+    }
+    .person{
+        margin: 15px;
+        width: 130px;
+    }
+
+    img{
+        width: 100px;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px;
+        height: 7.5vh;
+    }
+}
+
+
+  
